@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>FCC: Product Landing Page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="landing.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body class="bg-light">
+    <header id="header" class="sticky-top">
+        <nav id="nav-bar" class="navbar border-bottom border-dark sticky-top navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" width="250" height="30" class="d-inline-block align-top mr-2" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-5">
+                        <a class="nav-link text-dark" href="#features"><h6>Features</h6><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mx-5">
+                        <a class="nav-link text-dark" href="#how it works"><h6>How It Works</h6></a>
+                    </li>
+                    <li class="nav-item mx-5">
+                        <a class="nav-link text-dark" href="#pricing"><h6>Pricing</h6></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="jumbotron bg-light cover">
+            <h2 class="text-center font-weight-bold">Handcrafted, home-made masterpieces</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" class="text-center col-sm-8 col-md-6 col-lg-4 mx-auto my-4">
+                <div class="form-group">
+                    <input name="email" id="email" type="email" class="form-control" aria-describedby="emailHelp"
+                        placeholder="Enter your email address" required>
+                    <input id="submit" type="submit" value="Get Started" class="btn mt-3 btn-outline-primary btn-md font-weight-bold"></input>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <div class="container">
+        <section id="features">
+            <div class="row">
+                <div class="text-center my-4 col-2">
+                    <i class="fa fa-3x fa-fire text-warning"></i>
+                </div>
+                <div class="justify-content-start my-4 col-10">
+                    <h3>Premium Materials</h3>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-center my-4 col-2">
+                    <i class="fas fa-3x fa-truck text-warning"></i>
+                </div>
+                <div class="justify-content-start my-4 col-10">
+                    <h3>Fast Shipping</h3>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are
+                    not satisfied.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-center my-4 col-2">
+                    <i class="fas fa-3x fa-battery-full text-warning"></i>
+                </div>
+                <div class="justify-content-start my-4 col-10">
+                    <h3>Quality Assurance</h3>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your
+                    instrument.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <section id="how it works">
+        <div class="container">
+        <div class="video mx-auto text-center p-4 col-lg-8 embed-responsive embed-responsive-21by9">
+            <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc" frameborder="0"
+                allowfullscreen></iframe>
+        </div>
+        </div>
+    </section>
+    
+    <section id="pricing" class="mt-5">
+        <div class="container">
+            <div class="row">
+    
+                <div class="col-lg-4 mb-3">
+                    <div class="card border-primary">
+                        <div class="card-header text-primary">
+                            <h4 class="text-center font-weight-bold">Tenor Trombone</h4>
+                        </div>
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1490854474151-a980c80583b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+                        <div class="card-body text-dark">
+                            <h1 class="card-title pricing-card-title text-center">$50 <small class="text-muted">/ mo</small></h1>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been
+                                the industry's standard
+                                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                                it to make a type
+                                specimen
+                                book.</p>
+                        </div>
+                        <div class="card-footer text-center">      
+                            <a href="" class="btn btn-warning btn-outline-dark text-dark font-weight-bold btn-lg">Buy Now!</a>
+                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-3">
+                    <div class="card border-primary">
+                        <div class="card-header text-primary">
+                            <h4 class="text-center font-weight-bold">Valve Trombone</h4>
+                        </div>
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1447301109594-8bd2cc7129fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Valve Trombone">
+                        <div class="card-body text-dark">
+                            <h1 class="card-title pricing-card-title text-center">$75 <small class="text-muted">/ mo</small></h1>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been
+                                the industry's standard
+                                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                                it to make a type
+                                specimen
+                                book.</p>
+                        </div>
+                        <div class="card-footer text-center">      
+                            <a href="" class="btn btn-warning btn-outline-dark text-dark font-weight-bold btn-lg">Buy Now!</a>
+                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-3">
+                    <div class="card border-primary">
+                        <div class="card-header text-primary">
+                            <h4 class="text-center font-weight-bold">Bass Trombone</h4>
+                        </div>
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1519861410433-7f9e2b469cca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60 alt="Bass Trombone">
+                        <div class="card-body text-dark">
+                            <h1 class="card-title pricing-card-title text-center">$100 <small class="text-muted">/ mo</small></h1>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been
+                                the industry's standard
+                                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                                it to make a type
+                                specimen
+                                book.</p>
+                        </div>
+                        <div class="card-footer text-center">      
+                            <a href="" class="btn btn-warning btn-outline-dark text-dark font-weight-bold btn-lg">Buy Now!</a>
+                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <footer class="card-footer mt-5 py-3 text-right">
+                <div class="container">
+                    <ul class="list-inline text-muted">
+                        <li class="list-inline-item"><a class="text-dark" href="#">Privacy</a></li>
+                        <li class="list-inline-item"><a class="text-dark" href="#">Terms</a></li>
+                        <li class="list-inline-item"><a class="text-dark" href="#">Contact</a></li>
+                    </ul>
+                    <span>Copyright 2019, Original Trombones</span>
+                </div>
+            </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
